@@ -1,4 +1,4 @@
-package com.yogisoft;
+package com.aib;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

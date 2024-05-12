@@ -1,4 +1,4 @@
-package com.yogisoft.dto;
+package com.aib.dto;
 
 
 

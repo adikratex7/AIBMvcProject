@@ -1,4 +1,4 @@
-package com.yogisoft.config;
+package com.aib.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
