@@ -37,13 +37,6 @@ public class BankOperationController {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
 	@GetMapping("/denied")
 	public String access_denied() 
 	{
@@ -56,17 +49,6 @@ public class BankOperationController {
 		
 	}
 	
-	@GetMapping("/logout")
-	public String logout() 
-	{
-		
-		
-		
-		return "logout";
-		
-		
-		
-	}
 	
 	
 	@GetMapping("/registerhighlights")

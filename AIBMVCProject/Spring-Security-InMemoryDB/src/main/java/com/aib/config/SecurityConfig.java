@@ -38,6 +38,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.authorizeRequests().antMatchers("/").permitAll() //No Authentication no athurization
 		.antMatchers("/highlights").hasAnyRole("MANAGER","ADMIN")//authentication + authorization  having customer manager admin roles are ther
 		.antMatchers("/highlights").hasRole("EMPLOYEE")
+		.antMatchers("/highlights").hasRole("MANAGER")
 		.antMatchers("/registerhighlights").hasRole("MANAGER")  //authentication + authorization for role
 		.anyRequest().authenticated().and().formLogin().and().exceptionHandling().accessDeniedPage("/denied")
 		
