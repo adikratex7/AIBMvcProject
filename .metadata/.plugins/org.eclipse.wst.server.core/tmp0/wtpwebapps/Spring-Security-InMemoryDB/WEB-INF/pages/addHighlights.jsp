@@ -82,10 +82,10 @@ a {
     <label for="type"><b>Project Name</b></label>
     <input type="text" placeholder="Enter Type" name="projectName" id="type" required>
 
-    <label for="technology"><b>Technology</b></label>
+    <label for="technology"><b>Project Tech Stack</b></label>
     <input type="text" placeholder="Enter technology" name="projectTechStack" id="technology" required>
 
-   <label for="projecttype"><b>Technology</b></label>
+   <label for="projecttype"><b>Project Type</b></label>
     <input type="text" placeholder="Enter project type" name="projectType" id="technology" required>
     <hr>
 
